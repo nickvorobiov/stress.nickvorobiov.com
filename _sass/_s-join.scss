@@ -1,0 +1,16 @@
+.s-join {
+  padding-top: 10em;
+  .title {
+    margin-bottom: 0.7em;
+  }
+}
+
+@media (max-width: $xxmd) {
+  .s-join  {
+    .col-xs-9.col-xs-offset-2 {    
+      margin-left: 0;     
+      max-width: 100%;    
+      flex-basis: 100%;
+    }
+  }
+}
